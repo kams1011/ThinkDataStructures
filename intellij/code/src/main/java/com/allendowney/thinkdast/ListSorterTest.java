@@ -17,7 +17,7 @@ import org.junit.Test;
  */
 public class ListSorterTest {
 
-	private ListSorter<Integer> sorter;
+	private com.allendowney.thinkdast.ListSorter<Integer> sorter;
 	private Comparator<Integer> comparator;
 
 	/**
@@ -33,7 +33,7 @@ public class ListSorterTest {
 			}
 		};
 		
-		sorter = new ListSorter<Integer>();
+		sorter = new com.allendowney.thinkdast.ListSorter<Integer>();
 	}
 
 	/**
