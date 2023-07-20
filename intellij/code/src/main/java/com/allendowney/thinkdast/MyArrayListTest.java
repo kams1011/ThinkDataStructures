@@ -145,6 +145,13 @@ public class MyArrayListTest {
 		assertThat(mylist.indexOf(4), is(-1));
 	}
 
+
+	@Test
+	public void testIndexOf3() {
+		Object a = null;
+		System.out.println(a.equals(null));
+	}
+
 	/**
 	 * Test method for {@link MyArrayList#indexOf(Object)}.
 	 */
