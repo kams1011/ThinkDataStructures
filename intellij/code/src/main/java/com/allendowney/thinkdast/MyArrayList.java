@@ -120,7 +120,7 @@ public class MyArrayList<T> implements List<T> {
 			}
 		} else {
 			for (int i=0; i<array.length; i++) {
-				if (array[i].equals(target)) {
+				if (array[i] != null && array[i].equals(target)) {
 					return i;
 				}
 			}
@@ -197,8 +197,20 @@ public class MyArrayList<T> implements List<T> {
 
 	@Override
 	public T remove(int index) {
-		// TODO: FILL THIS IN!
-		return null;
+		if (index < 0 || index > size){
+			throw new IndexOutOfBoundsException();
+		}
+
+		T removeValue = array[index];
+		for (int i=index; i<size-1; i++) {
+			array[i] = array[i+1];
+			array[i+1] = null;
+		}
+		size--;
+
+		System.arraycopy(array, 0, array, 0, size);
+
+		return removeValue;
 	}
 
 	@Override

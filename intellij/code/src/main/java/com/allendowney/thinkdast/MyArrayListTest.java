@@ -233,6 +233,9 @@ public class MyArrayListTest {
 		assertThat(mylist.get(1), is(new Integer(3)));
 	}
 
+
+
+
 	/**
 	 * Test method for {@link MyArrayList#removeAll(java.util.Collection)}.
 	 */

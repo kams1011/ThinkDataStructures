@@ -511,56 +511,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MyArrayListTest.testIndexOf3">
+  <component name="RunManager" selected="JUnit.MyArrayListTest.testRemoveObject">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="code [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="code [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="compileJava" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MyArrayListTest.testIndexOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArrayListTest.testAddT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code.main" />
       <extension name="coverage">
         <pattern>
@@ -570,14 +528,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
       <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyArrayListTest" />
-      <option name="METHOD_NAME" value="testIndexOf" />
+      <option name="METHOD_NAME" value="testAddT" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest.testIndexOf3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArrayListTest.testRemoveAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code.main" />
       <extension name="coverage">
         <pattern>
@@ -587,14 +545,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
       <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyArrayListTest" />
-      <option name="METHOD_NAME" value="testIndexOf3" />
+      <option name="METHOD_NAME" value="testRemoveAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest.testSet (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArrayListTest.testRemoveInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code.main" />
       <extension name="coverage">
         <pattern>
@@ -604,7 +562,41 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
       <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyArrayListTest" />
-      <option name="METHOD_NAME" value="testSet" />
+      <option name="METHOD_NAME" value="testRemoveInt" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest.testRemoveInt2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allendowney.thinkdast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
+      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyArrayListTest" />
+      <option name="METHOD_NAME" value="testRemoveInt2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest.testRemoveObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allendowney.thinkdast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.allendowney.thinkdast" />
+      <option name="MAIN_CLASS_NAME" value="com.allendowney.thinkdast.MyArrayListTest" />
+      <option name="METHOD_NAME" value="testRemoveObject" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -628,19 +620,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.code [build]" />
-      <item itemvalue="Gradle.code [compileJava]" />
-      <item itemvalue="JUnit.MyArrayListTest.testIndexOf" />
-      <item itemvalue="JUnit.MyArrayListTest.testIndexOf3" />
-      <item itemvalue="JUnit.MyArrayListTest.testSet (1)" />
+      <item itemvalue="JUnit.MyArrayListTest.testAddT" />
+      <item itemvalue="JUnit.MyArrayListTest.testRemoveAll" />
+      <item itemvalue="JUnit.MyArrayListTest.testRemoveInt" />
+      <item itemvalue="JUnit.MyArrayListTest.testRemoveInt2" />
+      <item itemvalue="JUnit.MyArrayListTest.testRemoveObject" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyArrayListTest.testIndexOf3" />
-        <item itemvalue="JUnit.MyArrayListTest.testIndexOf" />
-        <item itemvalue="JUnit.MyArrayListTest.testSet (1)" />
-        <item itemvalue="Gradle.code [build]" />
-        <item itemvalue="Gradle.code [compileJava]" />
+        <item itemvalue="JUnit.MyArrayListTest.testRemoveObject" />
+        <item itemvalue="JUnit.MyArrayListTest.testRemoveInt" />
+        <item itemvalue="JUnit.MyArrayListTest.testRemoveInt2" />
+        <item itemvalue="JUnit.MyArrayListTest.testRemoveAll" />
+        <item itemvalue="JUnit.MyArrayListTest.testAddT" />
       </list>
     </recent_temporary>
   </component>
@@ -656,7 +648,8 @@
       <option name="presentableId" value="Default" />
       <updated>1524898475722</updated>
       <workItem from="1689781056245" duration="1192000" />
-      <workItem from="1689842348610" duration="5401000" />
+      <workItem from="1689842348610" duration="10340000" />
+      <workItem from="1689863748695" duration="631000" />
     </task>
     <servers />
   </component>
